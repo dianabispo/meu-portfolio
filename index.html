@@ -1,28 +1,95 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio</title>
-</head>
-<body>
-    <img src="" alt="">
-    <h1>Diana Bispo</h1>
-    <h2>Jornalista</h2>
-    <h3>Sou Diana Bispo, jornalista com mais de cinco anos de experiência em comunicação. Ao longo da minha trajetória, atuei em áreas como social media, assessoria de imprensa e produção de conteúdo, sempre de forma estratégica. Tive a oportunidade de trabalhar em instituições de  onde desenvolvi a habilidade de transformar temas complexos em materiais simples, acessíveis e engajadores para diversos públicos.</h3>
-    
-    <p>Lista ordenada</p>
-    <ol>
-    <li>Item</li>
-    <li>Item</li>
-    <li>Item</li>
-    </ol>
-    <p>Lista não ordenada</p>
-    <ul>
-        <li>Item</li>
-        <li>Item</li>
-    </ul>
-<div></div>
 
+<head>
+    <title>Meu Portfólio</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="sob">Formação</a></li>
+                <li><a href="#">Portfólio</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <main class="principal">
+            <article id="sobre">
+                <section>
+                    <img class="minha-imagem" src="dianafoto.png" alt="">
+                </section>
+                <section>
+                    <h1 class="titulo">Diana Bispo</h1>
+                    <h2 class="subtitulo">Jornalista e desenvolvedora Front End </h2>
+                    <p class="primeiro-paragrafo" style="text-align: justify;">Sou graduada em Jornalismo e em Comunicação e Estudos de Mídia, pós-graduada em Gestão Estratégica de Marketing e possuo mais de 5 anos de experiência na área de comunicação, atuando em instituições públicas e empresas privadas. Durante esse período, pude adquirir know how em assessoria de imprensa, produção de conteúdo e como Social Media. Atualmente, também sou estudante de programação, buscando ampliar minhas habilidades na área de tecnologia. Considero-me uma profissional comunicativa, criativa, proativa, e trabalho de forma consistente, buscando soluções e estratégias em equipe, compartilhando e absorvendo ideias para criar um ambiente de trabalho produtivo, com vistas ao desenvolvimento e ao sucesso dos projetos.
+
+                    </p>
+                </section>
+            </article>
+        </main>
+
+        <section id="formacao">
+            <h2 class="titulo_formacao">Formação</h2>
+            <div class="conteudo_formacao">
+                <article class="info_formacao">
+                    <h3>Curso de Programação</h3>
+                    <span><a href="https://minasprogramam.com">Instituto Minas Programam</a></span>
+                    <p>Lógica de programação e frontend, incluindo fundamentos de HTML, CSS e Javascript.</p>
+                    </article>
+                <article class="info_formacao">
+                    <h3>Jornalismo</h3>
+                    <span><a href="https://ucb.catolica.edu.br">Universidade Católica de Brasília</a></span>
+                    <p>O curso de Jornalismo forma profissionais multimídia, ou seja, aptos para atuar em um mercado em constante mudança e inovação, seja no rádio, impresso, TV, internet ou na Comunicação Corporativa. A graduação, que tem duração de 4 anos (8 semestres), desenvolve competências profissionais tecnológicas, gerais e específicas, com foco no planejamento estratégico empresarial e ações de liderança, marketing, gestão de pessoas e finanças.</p>
+                </article>
+                <article class="info_formacao">
+                    <h3>Intercâmbio acadêmico - Santander Mundi</h3>
+                    <span><a href="https://www.up.pt/portal/pt">Universidade do Porto</a></span>
+                    <p>O Santander Mundi é um programa de intercâmbio acadêmico que oferece bolsas-auxílio para estudantes de graduação e pós-graduação. Na Uporto, o curso de Jornalismo e Ciências da Comunicação, tem como base um protocolo assinado pelas Faculdades de Letras, Engenharia, Belas-Artes e Economia, pretende combinar uma formação em Humanísticas (Ciências Sociais) com a vertente das novas tecnologias da informação e da comunicação e as dimensões estética e gráfica.</p>
+            </div>
+        </section>
+    </header>
+</body>
+<body>
+    <section id="portfólio">
+        <h2 class="titulo_portfólio">Portfólio</h2>
+        <div class="conteudo_portfólio">
+            <article class="info_portfólio">
+                <h3>Desenvolvedora Web</h3>
+                <span><a href="https://minasprogramam.com">Instituto Minas Programam</a></span>
+                <p>Projeto desenvolvido durante o curso do Instituto Minas Programam com a finalidade de aprimorar os conhecimentos em ferramentas de desenvolvimento Web - HTML e CSS.</p>
+            </article>
+            <article class="info_portfólio">
+                <h3>Desenvolvedora Web</h3>
+                <span><a href="https://minasprogramam.com">Instituto Minas Programam</a></span>
+                <p>Projeto desenvolvido durante o curso do Instituto Minas Programam com a finalidade de aprimorar os conhecimentos em ferramentas de desenvolvimento Web - HTML e CSS.</p>
+            </article>
+        </div>
+    </section>
+    <footer id="rodapé">
+<div class="rodapé_conteúdo">
+<div class="rodapé_item">
+<img src="email.png" alt="icon email">
+<span>dianna.bispo@hotmail.com</span>
+</div>
+<div class="rodapé_item">
+    <img src="linkedin.png" alt="icon linkedin">
+    <span><a href="https://www.linkedin.com/in/diana-bispo">dianabispo</a></span>
+    </div>
+    <div>
+        <img src="github.png" alt="icon Github">
+        <span><a href="https://github.com/dianabispo">dianabispo</a></span>
+    </div>
+    </div>
+    </footer>
+    </body>
+</header>
+    </body>
 </body>
 </html>
+
